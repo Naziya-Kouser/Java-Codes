@@ -1,0 +1,14 @@
+Thread Safety:
+
+1) synchronized(lock) ensures only one thread calculates and prints factorial at a time.
+2) Prevents race conditions and interleaving of output in shared console/logs.
+
+Exception Handling:
+
+1) Custom Exception: InvalidThreadOperationException handles invalid input for factorial.
+
+2) Built-in Exceptions:
+
+    2a) InterruptedException in NumberPrinter.
+
+    2b) IllegalThreadStateException while starting threads.
